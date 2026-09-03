@@ -1,0 +1,175 @@
+// =====================================================
+// SHARED CONFIG — loaded by index.html AND every day*.html page
+// =====================================================
+const BIRTHDAY = new Date(2026, 8, 9, 0, 0, 0); // September 9, 2026, 00:00:00
+
+// Add each day's letter content here as you write them.
+// Leave a day as null and a "coming soon" note shows instead.
+// `theme` controls the visual world for that letter: 'default', 'sunrise', or 'night'.
+const LETTERS = {
+  1: {
+    title: "September 1",
+    theme: "default",
+    themeName: "",
+    lockedMessage: "This letter is waiting for you.",
+    paragraphs: [
+      "My love,",
+      "Today is September 1, and we officially have nine days until September 9. Our day. Our birthday.",
+      "I really never thought I could love someone this much from the bottom of my heart. Honestly before you I never imagined that someone could become this important to me. But you really crossed all my expectations of what love could feel like and what kind of person I could ever want in my life.",
+      "You make my days so much better, day by day. Sometimes I dont even realize it but just talking to you can completely change my mood everytime. Your presence in my life has become something I really love so much.",
+      "And the funny thing is, out of all the 365 days in a year we somehow share the same birthday.",
+      "Maybe it's just a coincidence. But I think its a really soo beautifull.",
+      "September 9 is getting closer soo happyy bdayyy ♡",
+      "And I'm already excited to celebrate with you."
+    ],
+    signoff: "With love yours,"
+  },
+  2: {
+    title: "September 2",
+    theme: "sunrise",
+    themeName: "You Changed Me",
+    lockedMessage: "This letter will open when a new day begins.",
+    paragraphs: [
+      "My love,",
+      "Today is September 2, and this letter is about something you probably don't completely realize.",
+      "You changed me.",
+      "You really changed me in so many ways.",
+      "After you came into my life, I started wanting to become better. I started trying to be more effective, more responsible, and more focused.",
+      "And honestly, sometimes it feels like I started working harder for you than I ever worked for myself.",
+      "Because when I think about you, I think about the future too.",
+      "You became one of the reasons I want to do better.",
+      "One of the reasons I want to grow.",
+      "One of the reasons I want to become someone capable of giving you the happiness you deserve.",
+      "And something else changed too.",
+      "I started praying for you more than I prayed for myself.",
+      "I don't know how to explain that properly, but whenever I pray, I genuinely want good things for you. I want you to be happy. I want you to be safe. I want life to be kind to you.",
+      "That's when I realized how deeply I care about you. More than you know.",
+      "You didn't force me to change.",
+      "You didn't ask me to become better.",
+      "But somehow, loving you made me want to.",
+      "And I think that's something beautiful.",
+      "Because you didn't just enter my life.",
+      "You changed the way I look at it.",
+      "And every day, without even realizing it, you make me want to become a better version of myself.",
+      "Thank you for that.",
+      "I love you soo much 🤍"
+    ],
+    signoff: "With love,"
+  },
+  3: {
+    title: "September 3",
+    theme: "night",
+    themeName: "How Did I Get This Lucky?",
+    lockedMessage: "Some feelings are worth waiting for...",
+    paragraphs: [
+      "My love,",
+      "Sometimes I genuinely sit and wonder...",
+      "How did I get you so close?",
+      "How did someone like you become such an important part of my life?",
+      "And honestly, I feel so lucky.",
+      "Like really, really so lucky.",
+      "There are moments when I just look at your childhood photos and admire you. I can spend so much time simply looking at your eyes and thinking about how pretty and gorgeous you are.",
+      "And sometimes, I still can't believe that I actually have you in my life.",
+      "I don't know how I got this lucky. 😭🫶🏼",
+      "But the more I get to know you, the more I realize that it's not just about how you look.",
+      "It's you.",
+      "Your personality.",
+      "Your kindness.",
+      "The way you are.",
+      "The way you treat people.",
+      "The way you stay so simple.",
+      "I really admire your kind and egoless character. You have something about you that feels different from everyone else.",
+      "And honestly, nobody really feels like you.",
+      "Everyone else feels unattractive and boring to me compared to how special you feel.",
+      "No one makes me feel the way you do.",
+      "And I think that's because you aren't just beautiful to me.",
+      "You are beautiful in the way you exist.",
+      "The way you talk.",
+      "The way you think.",
+      "The way you simply be yourself.",
+      "I really don't think you understand how lucky I feel to have you.",
+      "If someone asked me what one of the best things that happened to me was...",
+      "I think knowing you would be the one thing I would say."
+    ],
+    signoff: "With love,"
+  },
+  4: {
+    title: "September 4",
+    theme: "night",
+    themeName: "From The Other Side Of The Screen",
+    lockedMessage: "This letter is waiting for you.",
+    paragraphs: [
+      "My love,",
+      "There is something I want you to know.",
+      "Loving you from far away is painful sometimes.",
+      "I wont lie about that.",
+      "Sometimes I wish I could just be there with you.",
+      "I wish I could see you whenever I wanted.",
+      "I wish I could sit beside you.",
+      "I wish I could hug you when you are sad.",
+      "I wish I could see you smile with my own eyes instead of through a screen.",
+      "But even though distance can hurt loving you from far away has also shown me something.",
+      "It has shown me how real my feelings are.",
+      "Because even without touch without seeing you every day and without physically being beside you",
+      "My heart still chooses you effortlessly.",
+      "I know we only talk online.",
+      "But somehow you still became the prettiest girl in my eyes without even trying.",
+      "People might think a relationship through a screen isnt real.",
+      "But they dont understand.",
+      "They dont understand how a simple notification from you can make my day.",
+      "They dont understand how much I can miss someone I have only known through a screen.",
+      "They dont understand how real it feels when I worry about you.",
+      "When I want to make you happy.",
+      "When I think about you before sleeping.",
+      "Distance doesnt make feelings disappear.",
+      "And a screen doesnt make someone less important.",
+      "Somehow, even through messages and calls you became incredibly close to my heart.",
+      "And until the day I can actually be beside you",
+      "I'll keep loving you from here.",
+      "From the other side of the screen.",
+      "But with a heart that feels closer to you",
+      "I love you so much. 🤍"
+    ],
+    signoff: "With love,"
+  },
+  5: null,
+  6: null,
+  7: null,
+  8: null,
+  9: {
+    title: "September 9 — Happy Birthday",
+    theme: "default",
+    themeName: "",
+    lockedMessage: "This letter is waiting for you.",
+    paragraphs: ["Happy birthday to us. ♡"],
+    signoff: "With love yours,"
+  }
+};
+
+// Locked-state icon and next-unlocked icon per theme
+const THEME_ICONS = {
+  default: { locked: "🔒", unlocked: "💌" },
+  sunrise: { locked: "✉️", unlocked: "🌅" },
+  night: { locked: "🌙", unlocked: "✨" }
+};
+
+// =====================================================
+// HELPERS
+// =====================================================
+function startOfDay(d) {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+}
+
+function unlockDateForDay(day) {
+  return new Date(2026, 8, day); // September `day`, 2026
+}
+
+function isUnlocked(day) {
+  const today = startOfDay(new Date());
+  return today >= unlockDateForDay(day);
+}
+
+function themeFor(day) {
+  const data = LETTERS[day];
+  return (data && data.theme) || 'default';
+}
