@@ -123,7 +123,7 @@ const LETTERS = {
       "When I think about you before sleeping.",
       "Distance doesnt make feelings disappear.",
       "And a screen doesnt make someone less important.",
-      "Somehow, even through messages and calls you became incredibly close to my heart.",
+      "Somehow, even through messages you became incredibly close to my heart.",
       "And until the day I can actually be beside you",
       "I'll keep loving you from here.",
       "From the other side of the screen.",
