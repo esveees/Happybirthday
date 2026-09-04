@@ -132,7 +132,82 @@ const LETTERS = {
     ],
     signoff: "With love,"
   },
-  5: null,
+  5:{
+  title: "September 5",
+  theme: "default",
+  themeName: "",
+  lockedMessage: "This letter is waiting for you.",
+  paragraphs: [
+    "My love,",
+    
+    "Today I want to talk about the little things.",
+    
+    "Because honestly?",
+    
+    "It's the little things about you that make me love you even more.",
+    
+    "The way you text.",
+    
+    "Your random moods.",
+    
+    "The way you make me happy.",
+    
+    "The way you care without always making it obvious.",
+    
+    "The small things you do that you probably don't even realize affect me.",
+    
+    "Sometimes something as simple as the way you talk can make me blush.",
+    
+    "And then I will just sit there thinking...",
+    
+    "\"Damn, she really knows how to make me happy.\"",
+    
+    "You have this power over me without even trying.",
+    
+    "The smallest things you do can completely change my mood.",
+    
+    "And I genuinely think you are such a cute and caring person.",
+    
+    "Someone who just wants to be loved.",
+    
+    "I remember being impressed by you at the beginning of our conversations. You seemed so cool to me.",
+    
+    "And somehow, the more I got to know you, the more I started seeing everything behind that.",
+    
+    "I started seeing your personality.",
+    
+    "Your softness.",
+    
+    "Your kindness.",
+    
+    "The little things that make you who you are.",
+    
+    "And every time we talk, I end up loving you more without even realizing it.",
+    
+    "That's what scares me sometimes.",
+    
+    "Because it happens so naturally.",
+    
+    "I don't even try to fall more in love with you.",
+    
+    "It just happens.",
+    
+    "One conversation.",
+    
+    "One message.",
+    
+    "One random moment.",
+    
+    "And suddenly, I love you a little more than I did yesterday.",
+    
+    "I guess that's what happens when someone is genuinely special.",
+    
+    "And you are.",
+    
+    "You really, really are. 🫶🏻"
+  ],
+  signoff: "With love, yours Nihal"
+},
   6: null,
   7: null,
   8: null,
