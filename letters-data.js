@@ -208,7 +208,82 @@ const LETTERS = {
   ],
   signoff: "With love, yours Nihal"
 },
-  6: null,
+  6:{
+  title: "September 6",
+  theme: "default",
+  themeName: "",
+  lockedMessage: "This letter is waiting for you.",
+  paragraphs: [
+    "My love,",
+
+    "I don't think I can explain how often I think about you.",
+
+    "You're just everywhere in my thoughts.",
+
+    "Day and night.",
+
+    "Sometimes I'm doing something completely normal and suddenly you appear in my mind.",
+
+    "Something reminds me of you.",
+
+    "I see something and think, \"She would like this.\"",
+
+    "Something happens, and my first thought is, \"I want to tell her.\"",
+
+    "And honestly, I don't think I can stop it even if I tried.",
+
+    "You have this strange power of making me think about you all the time.",
+
+    "I still wonder how someone can become this important to me.",
+
+    "I can spend so much time admiring your photos and thinking about you.",
+
+    "Sometimes I just look at you and wonder how I got so lucky.",
+
+    "And I know I say \"I love you\" a lot.",
+
+    "Maybe too much. 😭",
+
+    "But I don't know why.",
+
+    "I just want to say it.",
+
+    "Even when you already know.",
+
+    "Sometimes you say bye, and I type \"I love you so much,\" but then I just read it and don't send it sometimes. 😭",
+
+    "And I don't know why I do that.",
+
+    "Maybe because there are moments when I feel so much that words suddenly feel embarrassing.",
+
+    "But the truth is...",
+
+    "I do love you.",
+
+    "So much.",
+
+    "Probably more than I manage to say.",
+
+    "And that's why I started writing these paragraphs for you.",
+
+    "I always thought about writing a diary.",
+
+    "But honestly?",
+
+    "Writing about you feels much better.",
+
+    "Because instead of writing about my life...",
+
+    "I get to write about one of the most beautiful parts of it.",
+
+    "You. 💌",
+
+    "I love you.",
+
+    "Always."
+  ],
+  signoff: "With love, yours Nihal"
+},
   7: null,
   8: null,
   9: {
