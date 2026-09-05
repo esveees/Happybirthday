@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>September 6 — A Letter For You ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Dancing+Script:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+<div id="click-hearts"></div>
+
+<div class="day-decor" aria-hidden="true">
+  <div class="stars-layer" id="stars-layer"></div>
+  <div class="moon"></div>
+  <div class="sunrise-glow"></div>
+</div>
+
+<button id="music-toggle" aria-label="Play music" title="Play our song">
+  <svg class="icon-note" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9 18V5l12-2v13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.6"/>
+    <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="1.6"/>
+  </svg>
+  <span class="note-status">♡</span>
+</button>
+<audio id="bg-audio" loop preload="none">
+  <source src="audio/our-song.mp3" type="audio/mpeg">
+</audio>
+
+<section class="letter-section day-page-wrap">
+  <div class="day-nav">
+    <a class="day-nav-link" href="index.html">← Home</a>
+    <a class="day-nav-link" id="day-prev" href="#">‹ Prev</a>
+    <a class="day-nav-link" id="day-next" href="#">Next ›</a>
+  </div>
+
+  <div class="letter-paper" id="letter-paper">
+    <div class="ribbon"></div>
+    <h3 class="letter-title" id="day-title">September 6</h3>
+    <p class="letter-theme-name" id="day-theme-name"></p>
+    <div class="letter-body" id="day-body"></div>
+  </div>
+</section>
+
+<button class="heart-fab" id="heart-fab" aria-label="Send hearts">♡</button>
+
+<footer class="site-footer">
+  <p>Made with all my love, just for you. <span class="beat">♡</span></p>
+  <p class="footer-sign">— Yours, Nihal</p>
+</footer>
+
+<script src="letters-data.js"></script>
+<script>const DAY = 6;</script>
+<script src="common.js"></script>
+<script src="day.js"></script>
+</body>
+</html>
