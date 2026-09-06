@@ -284,7 +284,78 @@ const LETTERS = {
   ],
   signoff: "With love, yours Nihal"
 },
-  7: null,
+  7: {
+  title: "September 7",
+  theme: "default",
+  themeName: "",
+  lockedMessage: "This letter is waiting for you.",
+  paragraphs: [
+    "My love,",
+
+    "We've reached September 7.",
+
+    "Only two more days until our birthday.",
+
+    "And as we are getting closer, I feel like I want to tell you something honestly.",
+
+    "Sometimes, I don't know how to explain what you mean to me.",
+
+    "Because feelings can be strange.",
+
+    "There are things you feel deeply but can't completely put into words.",
+
+    "You became one of those things for me.",
+
+    "You are someone I care about.",
+
+    "Someone I want to protect from sadness.",
+
+    "Someone I want to see happy.",
+
+    "Someone whose bad days affect me because I wish I could take some of that sadness away.",
+
+    "And sometimes I wonder if you truly understand that.",
+
+    "I may not always say everything perfectly.",
+
+    "I may not always know the right words.",
+
+    "But please don't mistake silence or imperfect words for a lack of feelings.",
+
+    "Because there is so much I don't know how to explain.",
+
+    "I care about you in the small moments.",
+
+    "When I wonder if you have eaten.",
+
+    "When I wonder if you're okay.",
+
+    "When I see something that reminds me of you.",
+
+    "When I wait for your message.",
+
+    "When I wish I could make you smile.",
+
+    "You have taken my whole heart.",
+
+    "And somehow, you keep becoming more important to me.",
+
+    "And whenever you feel like you are not important or special, remember this.",
+
+    "There is someone far away from you who cares.",
+
+    "Someone who thinks about you.",
+
+    "Someone who wants to see you happy.",
+
+    "Someone who is incredibly grateful that you exist.",
+
+    "And that someone is me.",
+
+    "Always."
+  ],
+  signoff: "Love, Nihal ❤️"
+},,
   8: null,
   9: {
     title: "September 9 — Happy Birthday",
