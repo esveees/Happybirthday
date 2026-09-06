@@ -206,7 +206,7 @@ const LETTERS = {
     
     "You really, really are. 🫶🏻"
   ],
-  signoff: "With love, yours Nihal"
+  signoff: "With love, "
 },
   6:{
   title: "September 6",
@@ -282,7 +282,7 @@ const LETTERS = {
 
     "Always."
   ],
-  signoff: "With love, yours Nihal"
+  signoff: "With love,"
 },
   7: {
   title: "September 7",
@@ -354,7 +354,7 @@ const LETTERS = {
 
     "Always."
   ],
-  signoff: "Love, Nihal ❤️"
+  signoff: "Love,"
 },
   8: null,
   9: {
