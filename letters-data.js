@@ -355,7 +355,7 @@ const LETTERS = {
     "Always."
   ],
   signoff: "Love, Nihal ❤️"
-},,
+},
   8: null,
   9: {
     title: "September 9 — Happy Birthday",
