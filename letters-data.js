@@ -356,7 +356,84 @@ const LETTERS = {
   ],
   signoff: " with Love, yours"
 },
-  8: null,
+  8: {
+  title: "September 8",
+  theme: "default",
+  themeName: "",
+  lockedMessage: "This letter is waiting for you.",
+  paragraphs: [
+    "My love,",
+
+    "Tomorrow.",
+
+    "Our day is tomorrow.",
+
+    "September 9.",
+
+    "Our birthdays.",
+
+    "I don't know why, but the closer it gets, the more special it feels to me.",
+
+    "Maybe because it's not just your birthday.",
+
+    "It's not just mine.",
+
+    "It's ours.",
+
+    "We get to celebrate the day we were both born.",
+
+    "And I honestly think that's beautiful.",
+
+    "Out of every day in the year, we somehow ended up sharing this one.",
+
+    "So tomorrow, I hope you wake up feeling loved.",
+
+    "I hope you smile.",
+
+    "I hope you remember how important you are.",
+
+    "I hope people around you remind you how special you are.",
+
+    "And somewhere, even if I'm far away, I will be celebrating you too.",
+
+    "I wish I could be there.",
+
+    "I wish I could give you something in person.",
+
+    "I wish I could see your face when you realize it's your birthday.",
+
+    "I wish I could say \"Happy Birthday\" while standing in front of you instead of typing it through a screen.",
+
+    "But for now, this is what I can give you.",
+
+    "My time.",
+
+    "My thoughts.",
+
+    "My words.",
+
+    "And my love in every letter.",
+
+    "Nine letters.",
+
+    "Nine days.",
+
+    "All leading to tomorrow.",
+
+    "So tonight, before you sleep, remember something.",
+
+    "Tomorrow isn't just another day.",
+
+    "Tomorrow is the day the world received you.",
+
+    "And I'm grateful that somewhere along your journey through life, you ended up meeting me too.",
+
+    "Tomorrow, we celebrate you.",
+
+    "And us."
+  ],
+  signoff: "Love,\nMe 🤍🎂"
+},
   9: {
     title: "September 9 — Happy Birthday",
     theme: "default",
