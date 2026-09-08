@@ -356,7 +356,7 @@ const LETTERS = {
   ],
   signoff: " with Love, yours"
 },
-  8: {
+8: {
   title: "September 8",
   theme: "default",
   themeName: "",
